@@ -1,0 +1,145 @@
+import sys
+import datetime
+
+import labelbox as lb
+import labelbox.types as lb_types
+import nanoid
+import imageio.v3 as iio
+import ndjson
+import numpy as np
+from supervision.detection.utils import mask_to_xyxy
+
+from utils import generate_composite_mask_from_instances, LabelboxClassInstance
+
+VIDEO_URL = "https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_200kbps_360p_60.0fps_h264.mp4"
+API_KEY = None
+ANNOTATION_PROJECT = "mal-video-object-detections"
+MAL_START_FRAME = 1
+MAL_END_FRAME = 20
+MAL_SKIP_FRAME = 1
+
+if __name__ == "__main__":
+    API_KEY = sys.argv[1] if len(sys.argv) > 1 else API_KEY
+    if not API_KEY:
+        raise ValueError("You need to provide the labelbox api key (with admin role)!")
+
+    client = lb.Client(API_KEY)
+
+    # create dataset and 1 dummy datarow
+    print("Creating dataset and datarow")
+    dataset = client.create_dataset(name="video-test")
+    global_key = f"video-{nanoid.generate(size=5)}"
+    datarow = dataset.create_data_row(
+        row_data=VIDEO_URL, 
+        global_key=global_key)
+
+
+    # TODO Create ontology
+    print("Creating demo ontology")
+    ontology_builder = lb.OntologyBuilder(
+        tools=[
+            lb.Tool(tool=lb.Tool.Type.BBOX, name="bunny"),
+            lb.Tool(tool=lb.Tool.Type.BBOX, name="tree"),
+            lb.Tool(tool=lb.Tool.Type.BBOX, name="butterfly"),
+        ]
+    )
+
+    ontology = client.create_ontology(
+            "VideoObjectDection Demo",
+            ontology_builder.asdict(),
+            media_type=lb.MediaType.Video
+    )
+
+    print("Creating annotation project and add batch")
+    project = client.create_project(
+        name=ANNOTATION_PROJECT,
+        description="",
+        media_type=lb.MediaType.Video
+    )
+    project.connect_ontology(ontology)
+
+    task = project.create_batches(
+        name_prefix="batch-",
+        global_keys=global_key,
+    )
+
+    print("Errors: ", task.errors())
+    print("Result: ", task.result())
+
+    
+    # MAL PAYLOAD BBOXES
+    print("Creating MAL payload")
+
+    class_instances = {
+        "bunny": LabelboxClassInstance(class_name="bunny", class_idx=1, rgb=(255,0,0)),
+        "tree": LabelboxClassInstance(class_name="tree", class_idx=2, rgb=(0,255,0)),
+        "butterfly": LabelboxClassInstance(class_name="butterfly", class_idx=3, rgb=(0,0,255)),
+    }
+
+    n_frames, height, width = iio.improps(VIDEO_URL).shape[:3]
+
+    video_object_annotations = []
+
+    for frame_idx in list(range(MAL_START_FRAME, MAL_END_FRAME, MAL_SKIP_FRAME)):
+        
+        composite_mask = generate_composite_mask_from_instances(width, height, class_instances.values(), seed=frame_idx)
+
+        for instance in class_instances.values():
+            binary_mask = np.all(composite_mask==instance.rgb, axis=-1)[np.newaxis,...]
+            bbox = mask_to_xyxy(binary_mask)[0]
+            
+            video_object_annotations.append(
+                lb_types.VideoObjectAnnotation(
+                    name = instance.class_name,
+                    keyframe=True,
+                    segment_index=0,
+                    frame=frame_idx,
+                    value = lb_types.Rectangle(
+                        start=lb_types.Point(x=bbox[0], y=bbox[1]), # top-left
+                        end=lb_types.Point(x=bbox[2], y=bbox[3]) # bottom-right
+                    )
+                )
+            )
+    
+    # create a label for datarow
+    label = lb_types.Label(
+        data= {"global_key": global_key},
+        annotations = video_object_annotations
+    )
+
+
+    # MAL Import job
+    print("Importing MAL annotations")
+    upload_job = lb.MALPredictionImport.create_from_objects(
+        client=client,
+        project_id=project.uid,
+        predictions = [label],
+        name=f"mal-{nanoid.generate()}"
+    )
+
+    upload_job.wait_till_done()
+
+    print(f"Errors: {upload_job.errors}")
+    print(f"Status of uploads: {upload_job.statuses}")
+
+    # Manual Work
+    print("*"*50)
+    input("You need to manually move datarow from initial labeling status. When done, press enter to continue...")
+    print("*"*50
+    )
+    # Project Export Job
+    export_task = project.export(params={})
+
+    export_task.wait_till_done()
+
+    print(export_task.result)
+
+
+    timestamp = datetime.datetime.now().isoformat().split(".")[0]
+    filename = f"export_{project.name}_{timestamp}.ndjson"
+    datarows = [datarow.json for datarow in export_task.get_buffered_stream()]
+
+    with open(filename, 'w') as f:
+        ndjson.dump(datarows, f)
+
+    print(f"Exported data saved into {filename}")
