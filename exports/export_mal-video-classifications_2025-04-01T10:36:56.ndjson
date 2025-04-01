@@ -1,7 +1,7 @@
 {
   "data_row": {
-    "id": "cm8y3013y4luk074910u7meox",
-    "global_key": "video-3XIY0",
+    "id": "cm8y8suxl6zl90769mj2rnu2d",
+    "global_key": "video-9iDWx",
     "row_data": "https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_200kbps_360p_60.0fps_h264.mp4"
   },
   "media_attributes": {
@@ -13,36 +13,36 @@
     "frame_count": 600
   },
   "projects": {
-    "cm8y30bm90dum072a4v8aeomc": {
+    "cm8y8t5mp016007ytgpzdekr8": {
       "name": "mal-video-classifications",
       "labels": [
         {
           "label_kind": "Video",
           "version": "1.0.0",
-          "id": "cm8y31mvf0czl07ha7xcze2vp",
+          "id": "cm8y8u14i0lb707f6a2fd9z1p",
           "annotations": {
             "frames": {
               "1": {
                 "objects": {},
                 "classifications": [
                   {
-                    "feature_id": "cm8y31o210bsw07f7cy8o942y",
-                    "feature_schema_id": "cm8y30b8a02hk07xz8z2kf6tg",
+                    "feature_id": "cm8y8u2lq0h7u07dse0shbnxh",
+                    "feature_schema_id": "cm8y8t5a80hpx072kh4s68ubx",
                     "name": "in_scene",
                     "value": "in_scene",
                     "checklist_answers": [
                       {
-                        "feature_id": "cm8y31o210bsx07f7c4u1gxrl",
-                        "feature_schema_id": "cm8y30b8a02hp07xz1zdm0rwa",
+                        "feature_id": "cm8y8u2ls0h7v07ds6uqn6c32",
+                        "feature_schema_id": "cm8y8t5a80hq2072k1mqw679v",
                         "name": "butterfly",
                         "value": "butterfly",
                         "classifications": []
                       },
                       {
-                        "feature_id": "cm8y31o220bsy07f77xei6u1d",
-                        "feature_schema_id": "cm8y30b8a02hl07xzbdn86q2v",
-                        "name": "bunny",
-                        "value": "bunny",
+                        "feature_id": "cm8y8u2ls0h7w07dsej1a1xw5",
+                        "feature_schema_id": "cm8y8t5a80hq0072k7ymocfkg",
+                        "name": "tree",
+                        "value": "tree",
                         "classifications": []
                       }
                     ]
@@ -53,23 +53,23 @@
                 "objects": {},
                 "classifications": [
                   {
-                    "feature_id": "cm8y31o210bsw07f7cy8o942y",
-                    "feature_schema_id": "cm8y30b8a02hk07xz8z2kf6tg",
+                    "feature_id": "cm8y8u2lq0h7u07dse0shbnxh",
+                    "feature_schema_id": "cm8y8t5a80hpx072kh4s68ubx",
                     "name": "in_scene",
                     "value": "in_scene",
                     "checklist_answers": [
                       {
-                        "feature_id": "cm8y31o210bsx07f7c4u1gxrl",
-                        "feature_schema_id": "cm8y30b8a02hp07xz1zdm0rwa",
+                        "feature_id": "cm8y8u2ls0h7v07ds6uqn6c32",
+                        "feature_schema_id": "cm8y8t5a80hq2072k1mqw679v",
                         "name": "butterfly",
                         "value": "butterfly",
                         "classifications": []
                       },
                       {
-                        "feature_id": "cm8y31o220bsy07f77xei6u1d",
-                        "feature_schema_id": "cm8y30b8a02hl07xzbdn86q2v",
-                        "name": "bunny",
-                        "value": "bunny",
+                        "feature_id": "cm8y8u2ls0h7w07dsej1a1xw5",
+                        "feature_schema_id": "cm8y8t5a80hq0072k7ymocfkg",
+                        "name": "tree",
+                        "value": "tree",
                         "classifications": []
                       }
                     ]
@@ -78,13 +78,13 @@
               }
             },
             "segments": {
-              "cm8y31o210bsx07f7c4u1gxrl": [
+              "cm8y8u2ls0h7v07ds6uqn6c32": [
                 [
                   1,
                   19
                 ]
               ],
-              "cm8y31o220bsy07f77xei6u1d": [
+              "cm8y8u2ls0h7w07dsej1a1xw5": [
                 [
                   1,
                   19
@@ -92,15 +92,15 @@
               ]
             },
             "key_frame_feature_map": {
-              "cm8y31o210bsw07f7cy8o942y": [
+              "cm8y8u2lq0h7u07dse0shbnxh": [
                 1,
                 19
               ],
-              "cm8y31o210bsx07f7c4u1gxrl": [
+              "cm8y8u2ls0h7v07ds6uqn6c32": [
                 1,
                 19
               ],
-              "cm8y31o220bsy07f77xei6u1d": [
+              "cm8y8u2ls0h7w07dsej1a1xw5": [
                 1,
                 19
               ]

@@ -1,0 +1,415 @@
+{
+  "data_row": {
+    "id": "cm8y6b83r6yek07699zv3e6q7",
+    "global_key": "video-mMSY7",
+    "row_data": "https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_200kbps_360p_60.0fps_h264.mp4"
+  },
+  "media_attributes": {
+    "height": 360,
+    "width": 640,
+    "asset_type": "video",
+    "mime_type": "video/mp4",
+    "frame_rate": 60,
+    "frame_count": 600
+  },
+  "projects": {
+    "cm8y6bikn0fp007274622fmxl": {
+      "name": "mal-video-segmentation-masks-issue",
+      "labels": [
+        {
+          "label_kind": "Video",
+          "version": "1.0.0",
+          "id": "cm8y6ipa90cv207f6gsgh8og4",
+          "annotations": {
+            "frames": {
+              "9": {
+                "objects": {
+                  "cm8y6iqwc0fit07fs6mqk2adx": {
+                    "feature_id": "cm8y6iqwc0fit07fs6mqk2adx",
+                    "feature_schema_id": "cm8y6bi6x01k607z36h6tf19x",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoSegmentationMask",
+                    "classifications": [],
+                    "mask": {
+                      "url": "https://api.labelbox.com/api/v1/projects/cm8y6bikn0fp007274622fmxl/annotations/cm8y6iqwc0fit07fs6mqk2adx/index/9/mask"
+                    },
+                    "composite_mask": {
+                      "url": "https://api.labelbox.com/api/v1/tasks/cm8y6ksf1051807z6diie4yv7/masks/cm8y6iqwc0fis07fsc8hxf98h/index/9",
+                      "color_rgb": [
+                        0,
+                        255,
+                        100
+                      ]
+                    }
+                  },
+                  "cm8y6iqwc0fiu07fs1m5ch0mr": {
+                    "feature_id": "cm8y6iqwc0fiu07fs1m5ch0mr",
+                    "feature_schema_id": "cm8y6bi6x01k807z3gmph1v39",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoSegmentationMask",
+                    "classifications": [],
+                    "mask": {
+                      "url": "https://api.labelbox.com/api/v1/projects/cm8y6bikn0fp007274622fmxl/annotations/cm8y6iqwc0fiu07fs1m5ch0mr/index/9/mask"
+                    },
+                    "composite_mask": {
+                      "url": "https://api.labelbox.com/api/v1/tasks/cm8y6ksf1051807z6diie4yv7/masks/cm8y6iqwc0fis07fsc8hxf98h/index/9",
+                      "color_rgb": [
+                        0,
+                        0,
+                        255
+                      ]
+                    }
+                  },
+                  "cm8y6iqwc0fiv07fs989z9vdb": {
+                    "feature_id": "cm8y6iqwc0fiv07fs989z9vdb",
+                    "feature_schema_id": "cm8y6bi6w01k407z38rsrdsci",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoSegmentationMask",
+                    "classifications": [],
+                    "mask": {
+                      "url": "https://api.labelbox.com/api/v1/projects/cm8y6bikn0fp007274622fmxl/annotations/cm8y6iqwc0fiv07fs989z9vdb/index/9/mask"
+                    },
+                    "composite_mask": {
+                      "url": "https://api.labelbox.com/api/v1/tasks/cm8y6ksf1051807z6diie4yv7/masks/cm8y6iqwc0fis07fsc8hxf98h/index/9",
+                      "color_rgb": [
+                        255,
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  "cm8y6iqwc0fiw07fs659s7wrp": {
+                    "feature_id": "cm8y6iqwc0fiw07fs659s7wrp",
+                    "feature_schema_id": "cm8y6bi6x01k607z36h6tf19x",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoSegmentationMask",
+                    "classifications": [],
+                    "mask": {
+                      "url": "https://api.labelbox.com/api/v1/projects/cm8y6bikn0fp007274622fmxl/annotations/cm8y6iqwc0fiw07fs659s7wrp/index/9/mask"
+                    },
+                    "composite_mask": {
+                      "url": "https://api.labelbox.com/api/v1/tasks/cm8y6ksf1051807z6diie4yv7/masks/cm8y6iqwc0fis07fsc8hxf98h/index/9",
+                      "color_rgb": [
+                        0,
+                        255,
+                        0
+                      ]
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "15": {
+                "objects": {
+                  "cm8y6iqwc0fit07fs6mqk2adx": {
+                    "feature_id": "cm8y6iqwc0fit07fs6mqk2adx",
+                    "feature_schema_id": "cm8y6bi6x01k607z36h6tf19x",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoSegmentationMask",
+                    "classifications": [],
+                    "mask": {
+                      "url": "https://api.labelbox.com/api/v1/projects/cm8y6bikn0fp007274622fmxl/annotations/cm8y6iqwc0fit07fs6mqk2adx/index/15/mask"
+                    },
+                    "composite_mask": {
+                      "url": "https://api.labelbox.com/api/v1/tasks/cm8y6ksf1051807z6diie4yv7/masks/cm8y6iqwc0fis07fsc8hxf98h/index/15",
+                      "color_rgb": [
+                        0,
+                        255,
+                        100
+                      ]
+                    }
+                  },
+                  "cm8y6iqwc0fiu07fs1m5ch0mr": {
+                    "feature_id": "cm8y6iqwc0fiu07fs1m5ch0mr",
+                    "feature_schema_id": "cm8y6bi6x01k807z3gmph1v39",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoSegmentationMask",
+                    "classifications": [],
+                    "mask": {
+                      "url": "https://api.labelbox.com/api/v1/projects/cm8y6bikn0fp007274622fmxl/annotations/cm8y6iqwc0fiu07fs1m5ch0mr/index/15/mask"
+                    },
+                    "composite_mask": {
+                      "url": "https://api.labelbox.com/api/v1/tasks/cm8y6ksf1051807z6diie4yv7/masks/cm8y6iqwc0fis07fsc8hxf98h/index/15",
+                      "color_rgb": [
+                        0,
+                        0,
+                        255
+                      ]
+                    }
+                  },
+                  "cm8y6iqwc0fiv07fs989z9vdb": {
+                    "feature_id": "cm8y6iqwc0fiv07fs989z9vdb",
+                    "feature_schema_id": "cm8y6bi6w01k407z38rsrdsci",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoSegmentationMask",
+                    "classifications": [],
+                    "mask": {
+                      "url": "https://api.labelbox.com/api/v1/projects/cm8y6bikn0fp007274622fmxl/annotations/cm8y6iqwc0fiv07fs989z9vdb/index/15/mask"
+                    },
+                    "composite_mask": {
+                      "url": "https://api.labelbox.com/api/v1/tasks/cm8y6ksf1051807z6diie4yv7/masks/cm8y6iqwc0fis07fsc8hxf98h/index/15",
+                      "color_rgb": [
+                        255,
+                        0,
+                        0
+                      ]
+                    }
+                  },
+                  "cm8y6iqwc0fiw07fs659s7wrp": {
+                    "feature_id": "cm8y6iqwc0fiw07fs659s7wrp",
+                    "feature_schema_id": "cm8y6bi6x01k607z36h6tf19x",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoSegmentationMask",
+                    "classifications": [],
+                    "mask": {
+                      "url": "https://api.labelbox.com/api/v1/projects/cm8y6bikn0fp007274622fmxl/annotations/cm8y6iqwc0fiw07fs659s7wrp/index/15/mask"
+                    },
+                    "composite_mask": {
+                      "url": "https://api.labelbox.com/api/v1/tasks/cm8y6ksf1051807z6diie4yv7/masks/cm8y6iqwc0fis07fsc8hxf98h/index/15",
+                      "color_rgb": [
+                        0,
+                        255,
+                        0
+                      ]
+                    }
+                  }
+                },
+                "classifications": []
+              }
+            },
+            "segments": {
+              "cm8y6iqwc0fit07fs6mqk2adx": [
+                [
+                  7,
+                  7
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  5,
+                  5
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  9,
+                  9
+                ],
+                [
+                  15,
+                  15
+                ]
+              ],
+              "cm8y6iqwc0fiu07fs1m5ch0mr": [
+                [
+                  7,
+                  7
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  5,
+                  5
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  9,
+                  9
+                ],
+                [
+                  15,
+                  15
+                ]
+              ],
+              "cm8y6iqwc0fiv07fs989z9vdb": [
+                [
+                  7,
+                  7
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  5,
+                  5
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  9,
+                  9
+                ],
+                [
+                  15,
+                  15
+                ]
+              ],
+              "cm8y6iqwc0fiw07fs659s7wrp": [
+                [
+                  7,
+                  7
+                ],
+                [
+                  17,
+                  17
+                ],
+                [
+                  11,
+                  11
+                ],
+                [
+                  3,
+                  3
+                ],
+                [
+                  19,
+                  19
+                ],
+                [
+                  5,
+                  5
+                ],
+                [
+                  13,
+                  13
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  9,
+                  9
+                ],
+                [
+                  15,
+                  15
+                ]
+              ]
+            },
+            "key_frame_feature_map": {
+              "cm8y6iqwc0fit07fs6mqk2adx": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+              ],
+              "cm8y6iqwc0fiu07fs1m5ch0mr": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+              ],
+              "cm8y6iqwc0fiv07fs989z9vdb": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+              ],
+              "cm8y6iqwc0fiw07fs659s7wrp": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+              ]
+            },
+            "classifications": []
+          }
+        }
+      ],
+      "project_tags": []
+    }
+  }
+}
