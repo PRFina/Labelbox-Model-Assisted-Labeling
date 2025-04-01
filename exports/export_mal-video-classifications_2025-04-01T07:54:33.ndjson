@@ -1,0 +1,115 @@
+{
+  "data_row": {
+    "id": "cm8y3013y4luk074910u7meox",
+    "global_key": "video-3XIY0",
+    "row_data": "https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_200kbps_360p_60.0fps_h264.mp4"
+  },
+  "media_attributes": {
+    "height": 360,
+    "width": 640,
+    "asset_type": "video",
+    "mime_type": "video/mp4",
+    "frame_rate": 60,
+    "frame_count": 600
+  },
+  "projects": {
+    "cm8y30bm90dum072a4v8aeomc": {
+      "name": "mal-video-classifications",
+      "labels": [
+        {
+          "label_kind": "Video",
+          "version": "1.0.0",
+          "id": "cm8y31mvf0czl07ha7xcze2vp",
+          "annotations": {
+            "frames": {
+              "1": {
+                "objects": {},
+                "classifications": [
+                  {
+                    "feature_id": "cm8y31o210bsw07f7cy8o942y",
+                    "feature_schema_id": "cm8y30b8a02hk07xz8z2kf6tg",
+                    "name": "in_scene",
+                    "value": "in_scene",
+                    "checklist_answers": [
+                      {
+                        "feature_id": "cm8y31o210bsx07f7c4u1gxrl",
+                        "feature_schema_id": "cm8y30b8a02hp07xz1zdm0rwa",
+                        "name": "butterfly",
+                        "value": "butterfly",
+                        "classifications": []
+                      },
+                      {
+                        "feature_id": "cm8y31o220bsy07f77xei6u1d",
+                        "feature_schema_id": "cm8y30b8a02hl07xzbdn86q2v",
+                        "name": "bunny",
+                        "value": "bunny",
+                        "classifications": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              "19": {
+                "objects": {},
+                "classifications": [
+                  {
+                    "feature_id": "cm8y31o210bsw07f7cy8o942y",
+                    "feature_schema_id": "cm8y30b8a02hk07xz8z2kf6tg",
+                    "name": "in_scene",
+                    "value": "in_scene",
+                    "checklist_answers": [
+                      {
+                        "feature_id": "cm8y31o210bsx07f7c4u1gxrl",
+                        "feature_schema_id": "cm8y30b8a02hp07xz1zdm0rwa",
+                        "name": "butterfly",
+                        "value": "butterfly",
+                        "classifications": []
+                      },
+                      {
+                        "feature_id": "cm8y31o220bsy07f77xei6u1d",
+                        "feature_schema_id": "cm8y30b8a02hl07xzbdn86q2v",
+                        "name": "bunny",
+                        "value": "bunny",
+                        "classifications": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "segments": {
+              "cm8y31o210bsx07f7c4u1gxrl": [
+                [
+                  1,
+                  19
+                ]
+              ],
+              "cm8y31o220bsy07f77xei6u1d": [
+                [
+                  1,
+                  19
+                ]
+              ]
+            },
+            "key_frame_feature_map": {
+              "cm8y31o210bsw07f7cy8o942y": [
+                1,
+                19
+              ],
+              "cm8y31o210bsx07f7c4u1gxrl": [
+                1,
+                19
+              ],
+              "cm8y31o220bsy07f77xei6u1d": [
+                1,
+                19
+              ]
+            },
+            "classifications": []
+          }
+        }
+      ],
+      "project_tags": []
+    }
+  }
+}

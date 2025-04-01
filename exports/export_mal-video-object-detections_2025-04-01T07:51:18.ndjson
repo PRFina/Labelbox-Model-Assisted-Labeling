@@ -1,0 +1,1011 @@
+{
+  "data_row": {
+    "id": "cm8y2vo2n50fs0752w5rh5kdq",
+    "global_key": "video-En1_f",
+    "row_data": "https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_200kbps_360p_60.0fps_h264.mp4"
+  },
+  "media_attributes": {
+    "height": 360,
+    "width": 640,
+    "asset_type": "video",
+    "mime_type": "video/mp4",
+    "frame_rate": 60,
+    "frame_count": 600
+  },
+  "projects": {
+    "cm8y2vxz0095d0712fdos9ct8": {
+      "name": "mal-video-object-detections",
+      "labels": [
+        {
+          "label_kind": "Video",
+          "version": "1.0.0",
+          "id": "cm8y2xair0g8y07fn56y99a3c",
+          "annotations": {
+            "frames": {
+              "1": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 234,
+                      "left": 561,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 147,
+                      "left": 302,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 10,
+                      "left": 85,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "2": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 33,
+                      "left": 176,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 260,
+                      "left": 154,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 128,
+                      "left": 481,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "3": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 55,
+                      "left": 139,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 252,
+                      "left": 50,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 56,
+                      "left": 473,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "4": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 274,
+                      "left": 302,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 225,
+                      "left": 557,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 292,
+                      "left": 576,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "5": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 7,
+                      "left": 477,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 208,
+                      "left": 475,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 145,
+                      "left": 304,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "6": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 161,
+                      "left": 202,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 138,
+                      "left": 318,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 294,
+                      "left": 218,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "7": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 212,
+                      "left": 530,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 293,
+                      "left": 369,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 179,
+                      "left": 458,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "8": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 72,
+                      "left": 583,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 223,
+                      "left": 193,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 54,
+                      "left": 188,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "9": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 298,
+                      "left": 169,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 131,
+                      "left": 514,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 35,
+                      "left": 356,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "10": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 82,
+                      "left": 122,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 241,
+                      "left": 564,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 246,
+                      "left": 489,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "11": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 247,
+                      "left": 295,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 41,
+                      "left": 75,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 183,
+                      "left": 355,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "12": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 302,
+                      "left": 559,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 190,
+                      "left": 148,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 20,
+                      "left": 111,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "13": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 21,
+                      "left": 479,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 278,
+                      "left": 511,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 292,
+                      "left": 154,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "14": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 203,
+                      "left": 213,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 46,
+                      "left": 491,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 27,
+                      "left": 415,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "15": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 219,
+                      "left": 482,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 289,
+                      "left": 409,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 75,
+                      "left": 203,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "16": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 256,
+                      "left": 254,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 167,
+                      "left": 335,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 238,
+                      "left": 55,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "17": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 33,
+                      "left": 95,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 230,
+                      "left": 499,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 142,
+                      "left": 329,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "18": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 66,
+                      "left": 423,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 277,
+                      "left": 235,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 270,
+                      "left": 165,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              },
+              "19": {
+                "objects": {
+                  "cm8y2xce613tb07i9h40feteb": {
+                    "feature_id": "cm8y2xce613tb07i9h40feteb",
+                    "feature_schema_id": "cm8y2vxjx0bbz07ye222kd4sa",
+                    "name": "tree",
+                    "value": "tree",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 110,
+                      "left": 547,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce613tc07i9brxzfofg": {
+                    "feature_id": "cm8y2xce613tc07i9brxzfofg",
+                    "feature_schema_id": "cm8y2vxjw0bbx07yeadze1uuu",
+                    "name": "bunny",
+                    "value": "bunny",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 183,
+                      "left": 248,
+                      "height": 49,
+                      "width": 49
+                    }
+                  },
+                  "cm8y2xce713td07i95mwxez4r": {
+                    "feature_id": "cm8y2xce713td07i95mwxez4r",
+                    "feature_schema_id": "cm8y2vxjx0bc107ye2ft0dann",
+                    "name": "butterfly",
+                    "value": "butterfly",
+                    "annotation_kind": "VideoBoundingBox",
+                    "classifications": [],
+                    "bounding_box": {
+                      "top": 117,
+                      "left": 161,
+                      "height": 49,
+                      "width": 49
+                    }
+                  }
+                },
+                "classifications": []
+              }
+            },
+            "segments": {
+              "cm8y2xce613tb07i9h40feteb": [
+                [
+                  1,
+                  19
+                ]
+              ],
+              "cm8y2xce613tc07i9brxzfofg": [
+                [
+                  1,
+                  19
+                ]
+              ],
+              "cm8y2xce713td07i95mwxez4r": [
+                [
+                  1,
+                  19
+                ]
+              ]
+            },
+            "key_frame_feature_map": {
+              "cm8y2xce613tb07i9h40feteb": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "cm8y2xce613tc07i9brxzfofg": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ],
+              "cm8y2xce713td07i95mwxez4r": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+              ]
+            },
+            "classifications": []
+          }
+        }
+      ],
+      "project_tags": []
+    }
+  }
+}
